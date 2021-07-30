@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Firebase App Demo</string>
+    <string-array name="product_cat">
+        <item>Household</item>
+        <item>Electronic</item>
+        <item>Eatable</item>
+        <item>Others</item>
+    </string-array>
+</resources>

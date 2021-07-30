@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:layout_marginBottom="30dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="25dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginEnd="20sp"
+            android:layout_marginRight="20sp"
+            android:src="@drawable/prod" />
+
+        <LinearLayout
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="20sp"
+            android:layout_marginRight="20sp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tpid"
+                android:layout_width="wrap_content"
+
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:gravity="left"
+                android:text="ProductID"
+                android:textColor="#E34B4B"
+                android:textSize="14dp" />
+
+            <TextView
+                android:id="@+id/tpname"
+                android:layout_width="wrap_content"
+
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:layout_marginTop="5sp"
+                android:text="Product Name"
+                android:textColor="#E36969"
+                android:textSize="14dp" />
+
+            <TextView
+                android:id="@+id/tpcost"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:layout_marginTop="5sp"
+                android:text="Product Cost"
+                android:textColor="#C65151"
+                android:textSize="14dp" />
+
+            <TextView
+                android:id="@+id/tptyp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Product Category"
+                android:textColor="#A32626" />
+
+            <Button
+                android:id="@+id/btnOrd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="OrderNow" />
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
